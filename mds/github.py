@@ -7,14 +7,14 @@ GITHUB = "https://github.com"
 GITHUB_RAW = "https://raw.githubusercontent.com"
 
 MDS_DEFAULT_REF = "master"
-MDS_ORG_NAME = "CityOfLosAngeles"
+MDS_ORG_NAME = "openmobilityfoundation"
 MDS_REPO_NAME = "mobility-data-specification"
 
 MDS = (GITHUB, MDS_ORG_NAME, MDS_REPO_NAME)
 MDS_RAW = (GITHUB_RAW, MDS_ORG_NAME, MDS_REPO_NAME)
 
 MDS_PROVIDER_REGISTRY = "/".join(MDS_RAW + ("{}/providers.csv",))
-MDS_SCHEMA = "/".join(MDS_RAW + ("{}/provider/{}.json",))
+MDS_SCHEMA = "/".join(MDS_RAW + ("{}/provider/dockless/{}.json",))
 
 
 def registry_url(ref=None):
