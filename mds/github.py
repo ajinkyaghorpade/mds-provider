@@ -6,7 +6,7 @@ Data and helpers for MDS on GitHub.
 GITHUB = "https://github.com"
 GITHUB_RAW = "https://raw.githubusercontent.com"
 
-MDS_DEFAULT_REF = "master"
+MDS_DEFAULT_REF = "0.4.0"
 MDS_ORG_NAME = "openmobilityfoundation"
 MDS_REPO_NAME = "mobility-data-specification"
 
